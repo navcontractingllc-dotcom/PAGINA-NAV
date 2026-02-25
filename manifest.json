@@ -1,0 +1,39 @@
+{
+  "name": "NAV Contracting LLC - Roofing & Exterior Contractor Houston TX",
+  "short_name": "NAV Contracting",
+  "description": "Houston's trusted roofing, siding, windows & gutters contractor. Licensed & insured, 10+ years, 500+ projects. Free estimates.",
+  "start_url": "https://www.navcontractingllc.com/",
+  "display": "standalone",
+  "background_color": "#0d0d0d",
+  "theme_color": "#d0021b",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "fotos/Logo.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "fotos/Logo.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "fotos/Logo.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "fotos/og-image.jpg",
+      "sizes": "1200x630",
+      "type": "image/jpeg"
+    }
+  ],
+  "categories": ["business", "services"],
+  "scope": "https://www.navcontractingllc.com/"
+}

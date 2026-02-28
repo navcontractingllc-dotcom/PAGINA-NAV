@@ -1,28 +1,16 @@
 # NAV Contracting LLC - robots.txt
-# Optimize crawling and indexing for Google Search
 
 User-agent: *
 Allow: /
-Allow: /fotos/
-Allow: *.css$
-Allow: *.js$
+
 Disallow: /admin/
 Disallow: /private/
-Disallow: /*?*sort=
-Disallow: /*?*filter=
 
-# Slower crawl rate for less important bots
 User-agent: AhrefsBot
-User-agent: SemrushBot
 Crawl-delay: 10
 
-# Bing
-User-agent: Bingbot
-Allow: /
-
-# Specific rules for Google
-User-agent: Googlebot
-Allow: /
+User-agent: SemrushBot
+Crawl-delay: 10
 
 # Sitemap location
 Sitemap: https://www.navcontractingllc.com/sitemap.xml

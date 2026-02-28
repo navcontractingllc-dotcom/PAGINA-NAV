@@ -1,16 +1,7 @@
 # NAV Contracting LLC - robots.txt
 
 User-agent: *
-Allow: /
+Disallow:
 
-Disallow: /admin/
-Disallow: /private/
-
-User-agent: AhrefsBot
-Crawl-delay: 10
-
-User-agent: SemrushBot
-Crawl-delay: 10
-
-# Sitemap location
+# Crawlers will find the sitemap here
 Sitemap: https://www.navcontractingllc.com/sitemap.xml

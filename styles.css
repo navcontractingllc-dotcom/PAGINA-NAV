@@ -52,11 +52,11 @@ nav {
 }
 
 .nav-logo img {
-  height: 48px;
+  height: 56px;
   width: auto;
-  background: #fff;
-  border-radius: 8px;
-  padding: 4px 10px;
+  background: transparent;
+  border-radius: 0;
+  padding: 0;
   display: block;
 }
 
@@ -489,9 +489,15 @@ nav {
 
 .why-visual {
   position: relative;
-  background: linear-gradient(135deg, var(--blue) 0%, #0d1350 100%);
+  background: linear-gradient(135deg, #0d0d0d 0%, #1a0005 60%, #0d0d0d 100%);
   padding: 48px;
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid rgba(208,2,27,0.2);
 }
 
 .why-visual h2 {
